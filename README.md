@@ -1,8 +1,30 @@
-# Welcome to your Lovable project
+# QuantumQuiz - Futuristic Quiz Application
+
+A cyberpunk-inspired quiz application built with React, TypeScript, and Tailwind CSS. Features a stunning futuristic design with 15 questions, 30-minute timer, and comprehensive result tracking.
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/d9f4159e-ed15-4829-8c54-15e457f20048
+
+## Features
+
+✨ **Futuristic Design**: Cyberpunk-inspired UI with neon glows, gradients, and animations
+⏰ **30-Minute Timer**: Auto-submit when time runs out with visual warnings
+🧭 **Question Navigation**: Jump between questions with progress tracking
+📊 **Detailed Results**: Side-by-side comparison of answers
+🎯 **Progress Tracking**: Visual indicators for visited and attempted questions
+📱 **Responsive Design**: Works seamlessly on all device sizes
+🌟 **Smooth Animations**: Beautiful transitions and hover effects
+
+## Live Features
+
+1. **Email Entry**: Submit email to start the quiz
+2. **Dynamic Questions**: 15 questions fetched from OpenTDB API
+3. **Timer System**: 30-minute countdown with warning states
+4. **Question Overview**: Visual grid showing progress
+5. **Answer Selection**: Multiple choice with visual feedback
+6. **Results Page**: Comprehensive performance breakdown
+7. **Restart Capability**: Take the quiz multiple times
 
 ## How can I edit this code?
 
