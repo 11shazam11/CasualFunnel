@@ -1,8 +1,6 @@
-# CF QUIZ APP
+# Futuristic Quiz Application
 
-## Project Overview
-
-CF Quiz APP is a web application likely designed to host quizzes or interactive content. The project utilizes React and related technologies, as suggested by the file structure and component names.
+A cutting-edge quiz application built with React JSX and pure CSS, featuring a cyberpunk-inspired design with neon accents and futuristic aesthetics.
 
 ## Core Components
 

@@ -1,12 +1,4 @@
-import { cn } from '@/lib/utils';
-
-interface QuestionNavigationProps {
-  totalQuestions: number;
-  currentQuestion: number;
-  visitedQuestions: Set<number>;
-  attemptedQuestions: Set<number>;
-  onQuestionSelect: (questionIndex: number) => void;
-}
+import { cn } from '../lib/utils';
 
 export const QuestionNavigation = ({
   totalQuestions,
@@ -14,9 +6,9 @@ export const QuestionNavigation = ({
   visitedQuestions,
   attemptedQuestions,
   onQuestionSelect,
-}: QuestionNavigationProps) => {
+}) => {
   return (
-    <div className="neon-border rounded-lg p-6 bg-card/50 backdrop-blur-sm">
+    <div className="neon-border rounded-lg p-6 bg-card backdrop-blur-sm">
       <h3 className="text-lg font-semibold mb-4 text-foreground">Question Overview</h3>
       
       <div className="grid grid-cols-5 gap-3 mb-6">
@@ -31,11 +23,11 @@ export const QuestionNavigation = ({
               key={index}
               onClick={() => onQuestionSelect(index)}
               className={cn(
-                "question-nav-item flex items-center justify-center text-sm font-medium",
+                "question-nav-item",
                 isCurrent && "current",
                 isAttempted && "attempted",
                 isVisited && !isAttempted && "visited",
-                !isVisited && !isAttempted && "border-border/50 text-muted-foreground hover:border-primary/30"
+                !isVisited && !isAttempted && "border-muted text-muted-foreground hover-border-primary-30"
               )}
             >
               {questionNumber}
@@ -58,7 +50,7 @@ export const QuestionNavigation = ({
           <span className="text-muted-foreground">Current</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="question-nav-item w-4 h-4 border-border/50" />
+          <div className="question-nav-item w-4 h-4 border-muted" />
           <span className="text-muted-foreground">Not visited</span>
         </div>
       </div>
