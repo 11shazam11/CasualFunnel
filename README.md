@@ -11,6 +11,33 @@ CF Quiz APP is a web application likely designed to host quizzes or interactive 
 *   **src/pages/Quiz.tsx:** Contains the quiz functionality, including questions, answers, and potentially scoring.
 *   **src/components/:** Contains various UI components, such as `EmailForm.tsx`, `QuestionCard.tsx`, `QuizResults.tsx`, and UI elements from the `ui` directory.
 
+## Core Features
+
+- **TypeScript Support:**  
+  Strongly typed codebase for reliability and maintainability.
+
+- **Component-Based Architecture:**  
+  Modular React components for easy development and scalability.
+
+- **Customizable Styling:**  
+  Uses Tailwind CSS for rapid UI development and easy theming.
+
+- **Quiz Functionality:**  
+  - Multiple question types and categories
+  - Tracks user answers, visited, and attempted questions
+  - Timer support for quizzes
+  - Displays quiz results with score and time spent
+
+- **State Management:**  
+  Centralized quiz state using TypeScript interfaces for questions, state, and results.
+
+- **Open Graph & Favicon Support:**  
+  Social sharing images and favicon configuration for a polished user experience.
+
+- **Directory Aliases:**  
+  Simplified imports using aliases for components, utils, hooks, and libraries.
+
+
 ## Directory Structure
 
 The project has the following directory structure:
