@@ -109,7 +109,7 @@ const Index = () => {
         {/* Footer */}
         <div className="text-center mt-16">
           <p className="text-muted-foreground">
-            Built with cutting-edge technology for the ultimate quiz experience
+            Project by ABHAY DHUMANE •
           </p>
         </div>
       </div>

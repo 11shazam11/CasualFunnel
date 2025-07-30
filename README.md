@@ -1,95 +1,120 @@
-# QuantumQuiz - Futuristic Quiz Application
+# CF QUIZ APP
 
-A cyberpunk-inspired quiz application built with React, TypeScript, and Tailwind CSS. Features a stunning futuristic design with 15 questions, 30-minute timer, and comprehensive result tracking.
+## Project Overview
 
-## Project info
+CF Quiz APP is a web application likely designed to host quizzes or interactive content. The project utilizes React and related technologies, as suggested by the file structure and component names.
 
-**URL**: https://lovable.dev/projects/d9f4159e-ed15-4829-8c54-15e457f20048
+## Core Components
 
-## Features
+*   **App.tsx:** The main application component, likely responsible for rendering the overall structure and routing.
+*   **src/pages/Index.tsx:** Likely the landing page or home page of the application.
+*   **src/pages/Quiz.tsx:** Contains the quiz functionality, including questions, answers, and potentially scoring.
+*   **src/components/:** Contains various UI components, such as `EmailForm.tsx`, `QuestionCard.tsx`, `QuizResults.tsx`, and UI elements from the `ui` directory.
 
-✨ **Futuristic Design**: Cyberpunk-inspired UI with neon glows, gradients, and animations
-⏰ **30-Minute Timer**: Auto-submit when time runs out with visual warnings
-🧭 **Question Navigation**: Jump between questions with progress tracking
-📊 **Detailed Results**: Side-by-side comparison of answers
-🎯 **Progress Tracking**: Visual indicators for visited and attempted questions
-📱 **Responsive Design**: Works seamlessly on all device sizes
-🌟 **Smooth Animations**: Beautiful transitions and hover effects
+## Directory Structure
 
-## Live Features
+The project has the following directory structure:
 
-1. **Email Entry**: Submit email to start the quiz
-2. **Dynamic Questions**: 15 questions fetched from OpenTDB API
-3. **Timer System**: 30-minute countdown with warning states
-4. **Question Overview**: Visual grid showing progress
-5. **Answer Selection**: Multiple choice with visual feedback
-6. **Results Page**: Comprehensive performance breakdown
-7. **Restart Capability**: Take the quiz multiple times
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/d9f4159e-ed15-4829-8c54-15e457f20048) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+CF quiz app/
+├── .gitignore
+├── bun.lockb
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+├── public/
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   ├── placeholder.svg
+│   └── robots.txt
+└── src/
+    ├── App.tsx
+    ├── index.css
+    ├── main.tsx
+    ├── vite-env.d.ts
+    ├── assets/
+    │   └── quiz-hero.jpg
+    ├── components/
+    │   ├── EmailForm.tsx
+    │   ├── QuestionCard.tsx
+    │   ├── QuestionNavigation.tsx
+    │   ├── QuizResults.tsx
+    │   ├── QuizTimer.tsx
+    │   └── ui/
+    │       ├── accordion.tsx
+    │       ├── alert-dialog.tsx
+    │       ├── alert.tsx
+    │       ├── aspect-ratio.tsx
+    │       ├── avatar.tsx
+    │       ├── badge.tsx
+    │       ├── breadcrumb.tsx
+    │       ├── button.tsx
+    │       ├── calendar.tsx
+    │       ├── card.tsx
+    │       ├── carousel.tsx
+    │       ├── chart.tsx
+    │       ├── checkbox.tsx
+    │       ├── collapsible.tsx
+    │       ├── command.tsx
+    │       ├── context-menu.tsx
+    │       ├── dialog.tsx
+    │       ├── drawer.tsx
+    │       ├── dropdown-menu.tsx
+    │       ├── form.tsx
+    │       ├── hover-card.tsx
+    │       ├── input-otp.tsx
+    │       ├── input.tsx
+    │       ├── label.tsx
+    │       ├── menubar.tsx
+    │       ├── navigation-menu.tsx
+    │       ├── pagination.tsx
+    │       ├── popover.tsx
+    │       ├── progress.tsx
+    │       ├── radio-group.tsx
+    │       ├── resizable.tsx
+    │       ├── scroll-area.tsx
+    │       ├── select.tsx
+    │       ├── separator.tsx
+    │       ├── sheet.tsx
+    │       ├── sidebar.tsx
+    │       ├── skeleton.tsx
+    │       ├── slider.tsx
+    │       ├── sonner.tsx
+    │       ├── switch.tsx
+    │       ├── table.tsx
+    │       ├── tabs.tsx
+    │       ├── textarea.tsx
+    │       ├── toast.tsx
+    │       ├── toaster.tsx
+    │       ├── toggle-group.tsx
+    │       ├── toggle.tsx
+    │       ├── tooltip.tsx
+    │       └── use-toast.ts
+    ├── hooks/
+    │   ├── use-mobile.tsx
+    │   ├── use-toast.ts
+    │   └── useQuizTimer.ts
+    ├── lib/
+    │   └── utils.ts
+    └── pages/
+        ├── Index.tsx
+        ├── NotFound.tsx
+        └── Quiz.tsx
 ```
 
-**Edit a file directly in GitHub**
+## Future Plans
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Future development will include implementing real-time database updates to allow for dynamic content and user interactions. This will likely involve integrating a database solution (e.g., Firebase, Supabase, or a similar service) and implementing real-time data synchronization using WebSockets or similar technologies. This will enable features such as:
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d9f4159e-ed15-4829-8c54-15e457f20048) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+*   Real-time quiz updates (e.g., new questions, updated scores).
+*   User progress tracking and synchronization.
+*   Collaborative quiz experiences.
