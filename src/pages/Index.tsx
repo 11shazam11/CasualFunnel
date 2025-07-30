@@ -38,12 +38,12 @@ const Index = () => {
         <div className="text-center max-w-4xl mx-auto mb-16">
           <div className="mx-auto w-32 h-32 rounded-full bg-gradient-cyber flex items-center justify-center mb-8 pulse-glow">
             <div className="w-20 h-20 rounded-full bg-background flex items-center justify-center">
-              <span className="text-4xl font-bold bg-gradient-cyber bg-clip-text text-transparent">Q</span>
+              <span className="text-4xl font-bold bg-gradient-cyber bg-clip-text text-transparent">CF</span>
             </div>
           </div>
           
           <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-cyber bg-clip-text text-transparent">
-            QuantumQuiz
+            CasualFunnel
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">

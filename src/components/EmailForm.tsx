@@ -29,11 +29,11 @@ export const EmailForm = ({ onSubmit }: EmailFormProps) => {
         <CardHeader className="text-center space-y-4">
           <div className="mx-auto w-20 h-20 rounded-full bg-gradient-cyber flex items-center justify-center mb-4">
             <div className="w-12 h-12 rounded-full bg-background flex items-center justify-center">
-              <span className="text-2xl font-bold bg-gradient-cyber bg-clip-text text-transparent">Q</span>
+              <span className="text-2xl font-bold bg-gradient-cyber bg-clip-text text-transparent">CF</span>
             </div>
           </div>
           <CardTitle className="text-3xl font-bold bg-gradient-cyber bg-clip-text text-transparent">
-            QuantumQuiz
+            CasualFunnel
           </CardTitle>
           <CardDescription className="text-muted-foreground">
             Enter your email to begin the ultimate knowledge challenge
